@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Películas Populares Keily</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>PELICULAS</h1>
+  </header>
+
+  <div  class="item-idioma ">
+
+     <label for="genre-select">Filtrar por género:</label>
+    <select id="genre-select"></select>
+ <label for="language-select">Idioma:</label>
+    <select id="language-select">
+      <option value="es">Español</option>
+      <option value="en">Inglés</option>
+    </select>
+    </div>
+
+  <main id="movie-list" class="main-container">
+    <!-- Aquí se mostrarán las películas -->
+  </main>
+  <div id="pagination">
+    <button id="prev-page" class="pagination-button">Anterior</button>
+    <span id="page-info" class="page-info"></span>
+    <button id="next-page" class="pagination-button">Siguiente</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
